@@ -1,4 +1,4 @@
-%
+%%%
 % NPDmodel for constant environmental conditions / seasonal forcing.
 %
 % Input:season  true/flase   run with/without seasonal forcing
