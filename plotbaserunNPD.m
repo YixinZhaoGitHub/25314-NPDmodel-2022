@@ -169,7 +169,7 @@ xlabel('Resource limitation')
 set(gca,FontSize=20)
 %% incident light intensity change
 figure(4)
-plot([0:365],p.Iin.*(0.2*sin(2*pi*[0:365]/365-pi/2)+0.8),'black',LineWidth=3);
+plot([0:365],p.Iin.*(0.4*sin(2*pi*[0:365]/365-pi/2)+0.6),'black',LineWidth=3);
 xlim([0 365])
 xticks([0 365/12 2*365/12 3*365/12 4*365/12 5*365/12 6*365/12 7*365/12 8*365/12 9*365/12 10*365/12 11*365/12 365]);
 xticklabels({'Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'});
